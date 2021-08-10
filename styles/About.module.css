@@ -1,0 +1,61 @@
+.about_hero{
+    margin: 30px 120px;
+}
+.about_hero h1{
+    text-align: center;
+    color: #13202E;
+    margin-top: 3rem;
+    font-size: 45px;
+    line-height: .8;
+    letter-spacing: 1.5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+}
+.about_hero > p{
+    text-align: center;
+    line-height: 1.5;
+    width: 40%;
+    margin: 0px auto;
+    margin-bottom: 2rem;
+}
+.about span{
+    color: gold;
+}
+.about_content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    margin: 0px auto;
+}
+.about_text{
+    width: 50%;
+    line-height: 1.5;
+    padding-right: 3rem;
+}
+.about_text p{
+    line-height: 1.6;
+    text-align: justify;
+}
+.about_img img{
+    object-fit: cover;
+}
+.team{
+    margin: 4rem 120px;
+}
+.team h1{
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 6rem;
+    color: #13202E;
+    font-size: 28px;
+}
+.team_image{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.team_image figcaption{
+    text-align: center;
+}

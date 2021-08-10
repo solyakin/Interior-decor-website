@@ -1,0 +1,86 @@
+.project{
+    margin: 20px 120px;
+}
+.project h1{
+    text-align: center;
+    color: #13202E;
+    margin: 3rem auto;
+    font-size: 45px;
+    line-height: .8;
+    letter-spacing: 1.5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+}
+.project span{
+    color: gold;
+}
+.image_1, .image_2, .image_3, .image_4{
+    display: flex;
+    align-items: baseline;
+    position: relative;
+    width: 450px;
+    margin-bottom: 4rem;
+}
+.name{
+    transform: rotate(-90deg);
+    position: absolute;
+    bottom: 50px;
+    right: 0;
+    z-index: 4;
+    font-size: 14px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 1.2px;
+}
+.image_1{
+    width: 500px;
+}
+.image_1 img{
+    width: 450px;
+    height: 400px;
+}
+.image_1 h4{
+   bottom: 40px;
+   right: -40px;
+}
+.image_2{
+    margin-left: 25%;
+    width: 450px;
+}
+.image_2 h4{
+    right: -10px;
+    bottom: 65px;
+}
+.image_3{
+    margin-left: 40%;
+}
+.image_3 img{
+    width: 500px;
+    height: 350px;
+}
+.image_3 h4{
+    right: -90px;
+}
+.image_4{
+    margin-left: 30%;
+    width: 450px;
+}
+.image_4 h4{
+    bottom: 55px;
+}
+.connect{
+    margin: 6rem auto;
+    text-align: center;
+}
+.touch{
+    font-size: 14px;
+}
+.connect_text{
+    font-size: 32px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 0;
+}
+.call{
+    font-weight: 600;
+    color: goldenrod;
+    letter-spacing: 6px;
+}

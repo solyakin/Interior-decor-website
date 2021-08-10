@@ -1,0 +1,39 @@
+.Contact{
+    margin: 60px 120px;
+}
+.Contact > p{
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.Contact h1{
+    font-size: 6vw;
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    font-weight: 100;
+    color: #13202E;
+    line-height: .8;
+    margin-top: 10px;
+}
+.Contact span{
+    color: gold;
+    position: absolute;
+    left: 10%;
+    /* font-size: ; */
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 8rem;
+    text-transform: capitalize;
+    padding-right: 3rem;
+    width: 90%;
+}
+.grid h3{
+    font-size: 16px;
+    color: #13202E;
+}
+.grid p{
+    line-height: .8;
+    font-size: 14px;
+}

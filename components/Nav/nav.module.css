@@ -1,0 +1,131 @@
+.header{
+    width: 100%;
+    height: 100px;
+}
+.navMenu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    z-index: 10;
+    position: relative;
+    height: 100px;
+    max-width: 1280px;
+    margin: 0px auto;
+    padding: 20px 60px;
+}
+.logo a{
+    font-size: 18px;
+}
+.menu button{
+    background-color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: blanchedalmond;
+    border: none;
+}
+.menu button:hover{
+    cursor: pointer;
+}
+.hamburger{
+    display: none;
+    z-index: 9;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+}
+.secondarycolorwrapper{
+    background-color: black;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: fixed;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+}
+.menuLayer{
+    background-color: rgb(230, 22, 22);
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.container{
+    padding: 20px 80px;
+    /* max-width: 1280px; */
+    margin: 0px auto;
+}
+.wrapper{
+    position: relative;
+}
+.wrapper .content{
+    position: relative;
+    top: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.content span{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+    position: relative;
+    overflow: hidden;
+}
+.content span a{
+    font-size: 4.4rem;
+    font-weight: 600;
+    font-family: sans-serif;
+    color: white;
+}
+.content span a:hover{
+    color: black;
+}
+.promise{
+    width: 300px;
+    color: white;
+}
+.promise h4{
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+.promise p{
+    line-height: 1.5;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    text-align: justify;
+}
+.social{
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+    right: 0;
+}
+.social li{
+    color: white;
+    font-size: 14px;
+}
+.social li:first-child{
+    font-weight: 500;
+    font-size: 16px;
+}
+.social li:hover{
+    background: rgba(0, 0, 0, 0.6);
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all .3s;
+}
+@media only screen and (max-width: 768px){
+    .nav{
+        margin: 20px 40px;
+    }
+    
+}
